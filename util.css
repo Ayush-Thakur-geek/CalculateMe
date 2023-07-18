@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+    font-family: "Lobster";
+    font-size: 3rem;
+}
+.container {
+    margin: auto;
+    max-width: 480px;
+    max-height: 900px;
+    padding-top: 20px;
+    padding-left: 20px;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10%;
+}
+.row {
+    padding: 0 30px 10px 0;
+}
+#screen {
+    min-width: 400px;
+    min-height: 80px;
+    border: 3px solid rgb(149, 223, 53);
+    font-size: 2rem;
+    background-color: black;
+    color: aliceblue;
+}
+.btn {
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 100%;
+    border: 3px solid rgb(149, 223, 53);
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 5px;
+    box-shadow: inset 0px 0px 40px 40px #a2aabd;
+}
+.btn:hover {
+    box-shadow: 20%;
+    opacity: 30%;
+}
+.clear {
+    color: orangered;
+}
+.sign {
+    color: greenyellow;
+}
+.minus {
+    font-size: 3rem;
+}
+.flex {
+    display: flex;
+} 
+.flex-col {
+    flex-direction: column;
+}
